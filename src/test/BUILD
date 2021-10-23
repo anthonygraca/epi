@@ -3,5 +3,5 @@ cc_test(
   size = "small",
   srcs = ["hello_test.cc"],
   deps = ["@gtest//:gtest_main",
-  "//main:hello-greet"],
+  "//src/main:hello-greet"],
 )

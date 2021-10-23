@@ -3,5 +3,5 @@ cc_test(
   size = "small",
   srcs = ["counting-bits-test.cc"],
   deps = ["@gtest//:gtest_main",
-          "//main/data-structures-and-algorithms/primitive-types:counting-bits"],
+          "//src/main/data-structures-and-algorithms/primitive-types:counting-bits"],
 )
