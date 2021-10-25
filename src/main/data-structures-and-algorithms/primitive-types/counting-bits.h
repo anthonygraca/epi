@@ -1,6 +1,10 @@
 #ifndef ELEMENTS_OF_PROGRAMMING_INTERVIEWS_DATA_STRUCTURES_AND_ALGORITHMS_PRIMITIVE_TYPES_COUNTING_BITS_H_
 #define ELEMENTS_OF_PROGRAMMING_INTERVIEWS_DATA_STRUCTURES_AND_ALGORITHMS_PRIMITIVE_TYPES_COUNTING_BITS_H_
 
+/*
+ * For a given positive integer, count the number of bits that are set to 1.
+ */
+
 #include <vector>
 
 namespace epi {
