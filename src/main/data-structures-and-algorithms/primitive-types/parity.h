@@ -14,13 +14,24 @@
 namespace epi {
 class Parity {
 public:
+  // O(log n) solution (or O(5))
   int parity(uint32_t n) {
+    n ^= n >> 16;
+    n ^= n >> 8;
+    n ^= n >> 4;
+    n ^= n >> 2;
+    n ^= n >> 1;
+    return n & 1;
+  }
+
+  // O(k) solution, where k = number of 1 bits
+  int parity_old(uint32_t n) {
     int count{0};
     while(n >= 1) {
-      count += n & 1;
-      n = n >> 1;
+      count ^= 1;
+      n = n & (n-1);
     }
-    return count % 2;
+    return count;
   }
 };
 } // namespace epi

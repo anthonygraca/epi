@@ -13,3 +13,11 @@ cc_test(
   deps = ["@gtest//:gtest_main",
           "//src/main/data-structures-and-algorithms/primitive-types:parity"],
 )
+
+cc_test(
+  name = "swap-bits-test",
+  size = "small",
+  srcs = ["swap-bits-test.cc"],
+  deps = ["@gtest//:gtest_main",
+          "//src/main/data-structures-and-algorithms/primitive-types:swap-bits"],
+)

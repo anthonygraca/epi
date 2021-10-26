@@ -11,3 +11,9 @@ cc_library(
   hdrs = ["parity.h"],
   visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
 )
+
+cc_library(
+  name = "swap-bits",
+  hdrs = ["swap-bits.h"],
+  visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
+)
