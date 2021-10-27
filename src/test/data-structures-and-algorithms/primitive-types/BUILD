@@ -21,3 +21,11 @@ cc_test(
   deps = ["@gtest//:gtest_main",
           "//src/main/data-structures-and-algorithms/primitive-types:swap-bits"],
 )
+
+cc_test(
+  name = "closest-integer-same-weight-test",
+  size = "small",
+  srcs = ["closest-integer-same-weight-test.cc"],
+  deps = ["@gtest//:gtest_main",
+          "//src/main/data-structures-and-algorithms/primitive-types:closest-integer-same-weight"],
+)

@@ -17,3 +17,9 @@ cc_library(
   hdrs = ["swap-bits.h"],
   visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
 )
+
+cc_library(
+  name = "closest-integer-same-weight",
+  hdrs = ["closest-integer-same-weight.h"],
+  visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
+)
