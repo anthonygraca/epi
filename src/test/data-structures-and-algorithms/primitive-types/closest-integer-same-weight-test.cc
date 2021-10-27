@@ -4,5 +4,5 @@
 
 TEST(ClosestIntegerSameWeight, FirstExample) {
   epi::ClosestIntegerSameWeight algo;
-  ASSERT_EQ(4, algo.closestIntSameBitCount(92));
+  ASSERT_EQ(5, algo.closestIntSameBitCount(6));
 }

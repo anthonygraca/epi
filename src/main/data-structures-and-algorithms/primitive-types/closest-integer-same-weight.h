@@ -14,11 +14,19 @@
  * Hint: Start with the least significant bit.
  */
 
+#include <stdexcept>
+
 namespace epi {
 class ClosestIntegerSameWeight {
 public:
   unsigned long long closestIntSameBitCount(unsigned long long x) {
-    return 4;
+    for(int i = 0; i < 64-1; i++) {
+      if (((x >> i) & 1) != ((x >> (i + 1)) & 1)) {
+        x ^= (1 << i) | (1 << (i + 1));
+        return x;
+      }
+    }
+    throw std::invalid_argument("All bits are 0 or 1");
   }
 };
 } // namespace epi
