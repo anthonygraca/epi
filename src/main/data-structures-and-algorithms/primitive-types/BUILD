@@ -23,3 +23,9 @@ cc_library(
   hdrs = ["closest-integer-same-weight.h"],
   visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
 )
+
+cc_library(
+  name = "product-without-arithmetical-operators",
+  hdrs = ["product-without-arithmetical-operators.h"],
+  visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
+)

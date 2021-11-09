@@ -29,3 +29,11 @@ cc_test(
   deps = ["@gtest//:gtest_main",
           "//src/main/data-structures-and-algorithms/primitive-types:closest-integer-same-weight"],
 )
+
+cc_test(
+  name = "product-without-arithmetical-operators-test",
+  size = "small",
+  srcs = ["product-without-arithmetical-operators-test.cc"],
+  deps = ["@gtest//:gtest_main",
+          "//src/main/data-structures-and-algorithms/primitive-types:product-without-arithmetical-operators"],
+)
