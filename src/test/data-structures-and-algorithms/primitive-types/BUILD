@@ -37,3 +37,11 @@ cc_test(
   deps = ["@gtest//:gtest_main",
           "//src/main/data-structures-and-algorithms/primitive-types:product-without-arithmetical-operators"],
 )
+
+cc_test(
+  name = "quotient-without-arithmetical-operators-test",
+  size = "small",
+  srcs = ["quotient-without-arithmetical-operators-test.cc"],
+  deps = ["@gtest//:gtest_main",
+          "//src/main/data-structures-and-algorithms/primitive-types:quotient-without-arithmetical-operators"],
+)

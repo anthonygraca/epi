@@ -29,3 +29,9 @@ cc_library(
   hdrs = ["product-without-arithmetical-operators.h"],
   visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
 )
+
+cc_library(
+  name = "quotient-without-arithmetical-operators",
+  hdrs = ["quotient-without-arithmetical-operators.h"],
+  visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
+)
