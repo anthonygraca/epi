@@ -4,5 +4,10 @@
 
 TEST(QuotientWithoutArithmeticalOperators, FirstExample) {
   epi::QuotientWithoutArithmeticalOperators algo;
-  ASSERT_EQ(6, algo.quotient(2,3));
+  ASSERT_EQ(1, algo.quotient(3,2));
+}
+
+TEST(QuotientWithoutArithmeticalOperators, SecondExample) {
+  epi::QuotientWithoutArithmeticalOperators algo;
+  ASSERT_EQ(0, algo.quotient(2,3));
 }

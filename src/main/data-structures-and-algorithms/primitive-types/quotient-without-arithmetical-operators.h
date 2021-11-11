@@ -5,7 +5,18 @@ namespace epi {
 class QuotientWithoutArithmeticalOperators {
 public:
   int quotient(int x, int y) {
-    return 6;
+    int result = 0;
+    int power = 32;
+    unsigned long long y_power = static_cast<unsigned long long>(y) << power;
+    while (x >= y) {
+      while (y_power > x) {
+        y_power >>= 1;
+        --power;
+      }
+      result += 1 << power;
+      x -= y_power;
+    }
+    return result;
   }
 };
 } // namespace epi
