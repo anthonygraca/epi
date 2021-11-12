@@ -45,3 +45,11 @@ cc_test(
   deps = ["@gtest//:gtest_main",
           "//src/main/data-structures-and-algorithms/primitive-types:quotient-without-arithmetical-operators"],
 )
+
+cc_test(
+  name = "compute-pow-test",
+  size = "small",
+  srcs = ["compute-pow-test.cc"],
+  deps = ["@gtest//:gtest_main",
+          "//src/main/data-structures-and-algorithms/primitive-types:compute-pow"],
+)

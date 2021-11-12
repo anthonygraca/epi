@@ -35,3 +35,9 @@ cc_library(
   hdrs = ["quotient-without-arithmetical-operators.h"],
   visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
 )
+
+cc_library(
+  name = "compute-pow",
+  hdrs = ["compute-pow.h"],
+  visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
+)
