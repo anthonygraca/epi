@@ -53,3 +53,11 @@ cc_test(
   deps = ["@gtest//:gtest_main",
           "//src/main/data-structures-and-algorithms/primitive-types:compute-pow"],
 )
+
+cc_test(
+  name = "reverse-digits-test",
+  size = "small",
+  srcs = ["reverse-digits-test.cc"],
+  deps = ["@gtest//:gtest_main",
+          "//src/main/data-structures-and-algorithms/primitive-types:reverse-digits"],
+)

@@ -41,3 +41,9 @@ cc_library(
   hdrs = ["compute-pow.h"],
   visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
 )
+
+cc_library(
+  name = "reverse-digits",
+  hdrs = ["reverse-digits.h"],
+  visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
+)
