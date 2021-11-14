@@ -16,17 +16,20 @@ public:
   int generateRandom(int lower_bound, int upper_bound) {
     int range = upper_bound - lower_bound + 1;
     int result = 0;
-
-    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
-    std::default_random_engine generator(seed);
-    std::uniform_int_distribution<int> random(0,1);
     do {
       result = 0;
       for (int i = 0; (1 << i) < range; i++) {
-        result = result | (random(generator) << i);
+        result = result | (getZeroOrOne() << i);
       }
     } while (result > range);
     return result + lower_bound;
+  }
+
+  int getZeroOrOne() {
+    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+    std::default_random_engine generator(seed);
+    std::uniform_int_distribution<int> random(0,1);
+    return random(generator);
   }
 };
 } // namespace epi

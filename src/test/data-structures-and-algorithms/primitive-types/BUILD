@@ -77,3 +77,11 @@ cc_test(
   deps = ["@gtest//:gtest_main",
           "//src/main/data-structures-and-algorithms/primitive-types:generate-random-numbers"],
 )
+
+cc_test(
+  name = "rectangle-intersection-test",
+  size = "small",
+  srcs = ["rectangle-intersection-test.cc"],
+  deps = ["@gtest//:gtest_main",
+          "//src/main/data-structures-and-algorithms/primitive-types:rectangle-intersection"],
+)

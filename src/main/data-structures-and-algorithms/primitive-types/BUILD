@@ -59,3 +59,9 @@ cc_library(
   hdrs = ["generate-random-numbers.h"],
   visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
 )
+
+cc_library(
+  name = "rectangle-intersection",
+  hdrs = ["rectangle-intersection.h"],
+  visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
+)
