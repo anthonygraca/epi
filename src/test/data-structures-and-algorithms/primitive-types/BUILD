@@ -69,3 +69,11 @@ cc_test(
   deps = ["@gtest//:gtest_main",
           "//src/main/data-structures-and-algorithms/primitive-types:decimal-palindrome"],
 )
+
+cc_test(
+  name = "generate-random-numbers-test",
+  size = "small",
+  srcs = ["generate-random-numbers-test.cc"],
+  deps = ["@gtest//:gtest_main",
+          "//src/main/data-structures-and-algorithms/primitive-types:generate-random-numbers"],
+)

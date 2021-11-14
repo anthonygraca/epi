@@ -53,3 +53,9 @@ cc_library(
   hdrs = ["decimal-palindrome.h"],
   visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
 )
+
+cc_library(
+  name = "generate-random-numbers",
+  hdrs = ["generate-random-numbers.h"],
+  visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
+)
