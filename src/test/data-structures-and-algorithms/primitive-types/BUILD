@@ -61,3 +61,11 @@ cc_test(
   deps = ["@gtest//:gtest_main",
           "//src/main/data-structures-and-algorithms/primitive-types:reverse-digits"],
 )
+
+cc_test(
+  name = "decimal-palindrome-test",
+  size = "small",
+  srcs = ["decimal-palindrome-test.cc"],
+  deps = ["@gtest//:gtest_main",
+          "//src/main/data-structures-and-algorithms/primitive-types:decimal-palindrome"],
+)

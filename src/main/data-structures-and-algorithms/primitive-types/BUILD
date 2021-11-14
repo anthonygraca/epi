@@ -47,3 +47,9 @@ cc_library(
   hdrs = ["reverse-digits.h"],
   visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
 )
+
+cc_library(
+  name = "decimal-palindrome",
+  hdrs = ["decimal-palindrome.h"],
+  visibility = ["//src/test/data-structures-and-algorithms/primitive-types:__pkg__"]
+)
