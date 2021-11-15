@@ -6,3 +6,11 @@ cc_test(
           "//src/main/data-structures-and-algorithms/arrays:even-odd"],
 )
 
+cc_test(
+  name = "dutch-national-flag-test",
+  size = "small",
+  srcs = ["dutch-national-flag-test.cc"],
+  deps = ["@gtest//:gtest_main",
+          "//src/main/data-structures-and-algorithms/arrays:dutch-national-flag"],
+)
+

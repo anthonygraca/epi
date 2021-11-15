@@ -38,3 +38,4 @@ bazel test --test_output=all //...
 | Problem | Source | Tests | Time | Space |
 |---------|--------|-------|------|-------|
 | Partition Even Odd | [:heavy_check_mark:](https://github.com/anthonygraca/epi/blob/main/src/main/data-structures-and-algorithms/arrays/even-odd.h) | [:heavy_check_mark:](https://github.com/anthonygraca/epi/blob/main/src/test/data-structures-and-algorithms/arrays/even-odd-test.cc) | O(n) | O(1) |
+| Dutch National Flag | [:heavy_check_mark:](https://github.com/anthonygraca/epi/blob/main/src/main/data-structures-and-algorithms/arrays/dutch-national-flag.h) | [:heavy_check_mark:](https://github.com/anthonygraca/epi/blob/main/src/test/data-structures-and-algorithms/arrays/dutch-national-flag-test.cc) | O(n) | O(1) |
