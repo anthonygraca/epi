@@ -33,3 +33,8 @@ bazel test --test_output=all //...
 | Check if a Decimal Integer is a Palindrome | [:heavy_check_mark:](https://github.com/anthonygraca/epi/blob/main/src/main/data-structures-and-algorithms/primitive-types/decimal-palindrome.h) | [:heavy_check_mark:](https://github.com/anthonygraca/epi/blob/main/src/test/data-structures-and-algorithms/primitive-types/decimal-palindrome-test.cc) | O(n) | O(1) |
 | Generate Uniform Random Numbers | [:heavy_check_mark:](https://github.com/anthonygraca/epi/blob/main/src/main/data-structures-and-algorithms/primitive-types/generate-random-numbers.h) | [:heavy_check_mark:](https://github.com/anthonygraca/epi/blob/main/src/test/data-structures-and-algorithms/primitive-types/generate-random-numbers-test.cc) | O(log(b - a + 1)) | O(1) |
 | Rectangle Intersection | [:heavy_check_mark:](https://github.com/anthonygraca/epi/blob/main/src/main/data-structures-and-algorithms/primitive-types/rectangle-intersection.h) | [:heavy_check_mark:](https://github.com/anthonygraca/epi/blob/main/src/test/data-structures-and-algorithms/primitive-types/rectangle-intersection-test.cc) | O(1) | O(1) |
+
+### Chapter 5. Arrays
+| Problem | Source | Tests | Time | Space |
+|---------|--------|-------|------|-------|
+| Partition Even Odd | [:heavy_check_mark:](https://github.com/anthonygraca/epi/blob/main/src/main/data-structures-and-algorithms/arrays/even-odd.h) | [:heavy_check_mark:](https://github.com/anthonygraca/epi/blob/main/src/test/data-structures-and-algorithms/arrays/even-odd-test.cc) | O(n) | O(1) |
