@@ -11,3 +11,9 @@ cc_library(
   hdrs = ["dutch-national-flag.h"],
   visibility = ["//src/test/data-structures-and-algorithms/arrays:__pkg__"]
 )
+
+cc_library(
+  name = "arbitrary-precision-integer",
+  hdrs = ["arbitrary-precision-integer.h"],
+  visibility = ["//src/test/data-structures-and-algorithms/arrays:__pkg__"]
+)

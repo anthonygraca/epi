@@ -14,3 +14,11 @@ cc_test(
           "//src/main/data-structures-and-algorithms/arrays:dutch-national-flag"],
 )
 
+cc_test(
+  name = "arbitrary-precision-integer-test",
+  size = "small",
+  srcs = ["arbitrary-precision-integer-test.cc"],
+  deps = ["@gtest//:gtest_main",
+          "//src/main/data-structures-and-algorithms/arrays:arbitrary-precision-integer"],
+)
+
