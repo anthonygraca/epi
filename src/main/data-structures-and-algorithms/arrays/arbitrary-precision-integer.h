@@ -21,8 +21,8 @@ public:
       }
     }
     if (input[0] == 10) {
-      input[0] = 0;
-      input.emplace_back(1);
+      input[0] = 1;
+      input.emplace_back(0);
     }
     return input;
   }
