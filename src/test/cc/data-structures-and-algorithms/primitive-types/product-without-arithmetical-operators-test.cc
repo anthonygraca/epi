@@ -1,4 +1,4 @@
-#include "src/main/data-structures-and-algorithms/primitive-types/product-without-arithmetical-operators.h"
+#include "src/main/cc/data-structures-and-algorithms/primitive-types/product-without-arithmetical-operators.h"
 
 #include "gtest/gtest.h"
 

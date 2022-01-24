@@ -4,7 +4,7 @@
 ### Prerequisites
 * A C++ compiler that supports at least C++11.
 * [Bazel](https://bazel.build) build system
-### Compile and Test C++ Code with Bazel
+### Compile and Test C++, Java, Python, and Clojure Code with Bazel
 1.) Git clone repository.  
 ```
 git clone https://github.com/anthonygraca/epi

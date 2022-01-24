@@ -1,4 +1,4 @@
-#include "src/main/data-structures-and-algorithms/primitive-types/closest-integer-same-weight.h"
+#include "src/main/cc/data-structures-and-algorithms/primitive-types/closest-integer-same-weight.h"
 
 #include "gtest/gtest.h"
 

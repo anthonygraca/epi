@@ -1,4 +1,4 @@
-#include "src/main/data-structures-and-algorithms/primitive-types/swap-bits.h"
+#include "src/main/cc/data-structures-and-algorithms/primitive-types/swap-bits.h"
 
 #include "gtest/gtest.h"
 

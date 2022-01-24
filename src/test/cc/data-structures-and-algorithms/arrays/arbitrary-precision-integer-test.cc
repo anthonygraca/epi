@@ -1,4 +1,4 @@
-#include "src/main/data-structures-and-algorithms/arrays/arbitrary-precision-integer.h"
+#include "src/main/cc/data-structures-and-algorithms/arrays/arbitrary-precision-integer.h"
 
 #include "gtest/gtest.h"
 

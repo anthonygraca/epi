@@ -1,4 +1,4 @@
-#include "src/main/data-structures-and-algorithms/primitive-types/compute-pow.h"
+#include "src/main/cc/data-structures-and-algorithms/primitive-types/compute-pow.h"
 
 #include "gtest/gtest.h"
 

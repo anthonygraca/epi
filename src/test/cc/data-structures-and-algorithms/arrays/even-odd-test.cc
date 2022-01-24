@@ -1,4 +1,4 @@
-#include "src/main/data-structures-and-algorithms/arrays/even-odd.h"
+#include "src/main/cc/data-structures-and-algorithms/arrays/even-odd.h"
 
 #include "gtest/gtest.h"
 
